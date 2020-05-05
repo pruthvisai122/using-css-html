@@ -1,0 +1,36 @@
+body{
+	background-color: black;
+}
+a:link, a:visited {
+	text-decoration: none;
+	background-color: #ff9900;
+	border: 1px solid black;
+	color:black;
+	display: block;
+	width: 200px;
+	text-align: center;
+	margin-bottom: 2px;
+	border-radius: 20px;
+	font-size: 25px;
+	font-family: cursive;
+   
+}
+a:hover, a:active{
+	background-color: 33cccc;
+	color:black;
+	text: block;
+	border-radius: 20px;
+	font-family: cursive;
+}
+a{
+	top: 25%;
+    left: 42.5%;
+    position: absolute;
+    height: 40px;
+    font-family: cursive;
+}
+h1{
+	color:red;
+	font-family: cursive;
+	text-align: center;
+}
