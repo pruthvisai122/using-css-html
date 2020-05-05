@@ -1,0 +1,76 @@
+h1{
+	text-align:center;
+	font-style: satisfy;
+    color: #00ffff;
+	top: -20%;
+    left: 30%;
+    position: absolute;
+}
+h2{
+	text-align: center;
+	top: 0%;
+    left: 37.5%;
+    position: absolute;
+    color: #ffff66;
+}
+p{
+	font-size: 25px;
+}
+.login-box input{
+	width: 60%;
+	height: 25px;
+	margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="Enter name"],input[type="number"], input[type="Enter Age"]
+{
+	border: none;
+	border-bottom: 1px; solid #fff;
+	background: #a6a6a6;
+	outline: none;
+}
+body{
+	background: url(image.jpg);
+	background-size: cover;
+}
+.login-box{
+    width: 420px;
+    height: 520px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+a{
+	text-align: center;
+	top:100%; 
+    left: 37.5%;
+    position: absolute;
+    font-style: cursive;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	background-color: #99ff33;
+	border: 1px solid black;
+	color:black;
+	display: block;
+	width: 200px;
+	text-align: center;
+	margin-bottom: 2px;
+	top:90%; 
+    left: 44%;
+    position: absolute;
+    height:25px;
+    font-size: 20px;
+}
+a:hover, a:active{
+	background-color: red;
+	color:black;
+	text: block;
+	border-radius: 5px;
+	font-size:20px;
+}
